@@ -1,6 +1,6 @@
 module github.com/microsoft/moc-sdk-for-go
 
-go 1.26
+go 1.25.8
 
 require (
 	code.cloudfoundry.org/bytefmt v0.0.0-20210608160410-67692ebc98de
@@ -112,5 +112,6 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.39.0
 )
 
-// TODO: Remove before merging - local replace for testing
+
+// TODO: Remove before merging - fork replace for AGC AzureStorageBlob testing on Go 1.25.8 toolchain
 replace github.com/microsoft/moc => github.com/oukoedwin/moc v0.0.0-20260610180132-ec9b769ccbb1
