@@ -114,4 +114,4 @@ replace (
 
 
 // TODO: Remove before merging - fork replace for AGC AzureStorageBlob testing on Go 1.25.8 toolchain
-replace github.com/microsoft/moc => github.com/oukoedwin/moc v0.0.0-20260630171433-b1877fc936bc
+replace github.com/microsoft/moc => github.com/oukoedwin/moc v0.0.0-20260702173225-8e92c7021d85
